@@ -134,13 +134,12 @@ export interface Scanner {
 /** @internal */
 export const textToKeywordObj: MapLike<KeywordSyntaxKind> = {
     abstract: SyntaxKind.AbstractKeyword,
-    accessor: SyntaxKind.AccessorKeyword,
-    any: SyntaxKind.AnyKeyword,
-    as: SyntaxKind.AsKeyword,
+    accessor: SyntaxKind.AccessorKeyword,कोणतही: SyntaxKind.AnyKeyword,
+    सारखं: SyntaxKind.AsKeyword,
     asserts: SyntaxKind.AssertsKeyword,
     assert: SyntaxKind.AssertKeyword,
-    bigint: SyntaxKind.BigIntKeyword,
-    boolean: SyntaxKind.BooleanKeyword,
+   मोठीसंख्या: SyntaxKind.BigIntKeyword,
+    बुलीयन: SyntaxKind.BooleanKeyword,
     break: SyntaxKind.BreakKeyword,
     case: SyntaxKind.CaseKeyword,
     catch: SyntaxKind.CatchKeyword,
