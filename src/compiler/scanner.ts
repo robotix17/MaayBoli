@@ -134,7 +134,8 @@ export interface Scanner {
 /** @internal */
 export const textToKeywordObj: MapLike<KeywordSyntaxKind> = {
     abstract: SyntaxKind.AbstractKeyword,
-    accessor: SyntaxKind.AccessorKeyword,कोणतही: SyntaxKind.AnyKeyword,
+    accessor: SyntaxKind.AccessorKeyword,
+    कोणतही: SyntaxKind.AnyKeyword,
     सारखं: SyntaxKind.AsKeyword,
     asserts: SyntaxKind.AssertsKeyword,
     assert: SyntaxKind.AssertKeyword,
@@ -207,7 +208,7 @@ export const textToKeywordObj: MapLike<KeywordSyntaxKind> = {
     विशिष्ट: SyntaxKind.UniqueKeyword,
     unknown: SyntaxKind.UnknownKeyword,
     वापरून: SyntaxKind.UsingKeyword,
-    var: SyntaxKind.VarKeyword,
+    अस्थिर: SyntaxKind.VarKeyword,
     void: SyntaxKind.VoidKeyword,
     while: SyntaxKind.WhileKeyword,
     सोबत: SyntaxKind.WithKeyword,
