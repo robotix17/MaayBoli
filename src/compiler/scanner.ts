@@ -213,7 +213,7 @@ export const textToKeywordObj: MapLike<KeywordSyntaxKind> = {
     जोपर्यंत: SyntaxKind.WhileKeyword,
     सोबत: SyntaxKind.WithKeyword,
     यील्ड: SyntaxKind.YieldKeyword,
-    a: SyntaxKind.AsyncKeyword,
+    ॲसिंक: SyntaxKind.AsyncKeyword,
     अवेट: SyntaxKind.AwaitKeyword,
     चा: SyntaxKind.OfKeyword,
 };
